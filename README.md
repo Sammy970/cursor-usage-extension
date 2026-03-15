@@ -8,6 +8,8 @@ A lightweight Cursor IDE extension that shows your remaining AI requests directl
 
 Every time you use Cursor AI (chat, autocomplete, inline edits), it consumes a "fast request" from your monthly quota. Previously, the only way to check how many you had left was to open a browser, navigate to the Cursor dashboard, and log in.
 
+![Cursor Usage Monitor](https://github.com/Sammy970/cursor-usage-extension/blob/main/media/cursor-usage-monitor.png?raw=true)
+
 This extension puts that number right in your status bar:
 
 ```
