@@ -3,13 +3,18 @@
   "displayName": "Cursor Usage",
   "description": "Shows your remaining Cursor AI requests in the status bar",
   "version": "1.0.0",
-  "publisher": "SamyakJain",
+  "publisher": "Sammy970",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Other"],
-  "activationEvents": ["onStartupFinished"],
+  "categories": [
+    "Programming Languages",
+    "Visualization"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -18,6 +23,10 @@
         "title": "Cursor Usage: Refresh"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sammy970/cursor-usage-extension"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
